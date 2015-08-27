@@ -56,6 +56,7 @@
 }
 ```
 >分享途径
+
 ```
 typedef enum {
     kShareTool_WeiXinFriends = 0, // 微信好友
@@ -64,6 +65,7 @@ typedef enum {
 } ShareToolType;
 ```
 >分享类型
+
 ```
 typedef enum {
     kShareMedia_WeiXinText = 0, //文字
@@ -75,6 +77,7 @@ typedef enum {
 ```
 
 >获取使用微信登录的用户在微信里的信息
+
 ```
 @protocol Vendor_WeiXinDelegate <NSObject>
 
